@@ -6,3 +6,8 @@ terraform {
     }
   }
 }
+
+module "aws_instance" {
+  source = "github.com/IvanGavrilov777/terraform-module-aws_instance"
+}
+  
